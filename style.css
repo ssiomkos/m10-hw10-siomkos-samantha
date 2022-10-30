@@ -21,23 +21,23 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23a1a1a1' fill-opacity='0.59' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-h1 {
+.article__primary-heading {
   font-size: 2.5rem;
 }
 
-h1, h2 {
+.article__primary-heading, .article__secondary-heading {
   text-align: center;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   text-decoration: underline;
 }
 
-header {
+.header {
   background-color: var(--primary-color);
   padding: 48px 0;
   border-bottom: var(--secondary-color) 6px solid;
@@ -58,7 +58,7 @@ header {
   box-sizing: border-box;
 }
 
-nav {
+.header__nav {
   display: flex;
 }
 
